@@ -1,0 +1,14 @@
+.nameInput {
+    margin-left: 1em;
+    padding: 8px;
+    background-color: rgba(214, 202, 202, 0.74);
+    border: none;
+    border-radius: 4px;
+}
+.nameInput:focus{
+    outline: none;
+}
+
+form {
+    margin:1em;
+}
