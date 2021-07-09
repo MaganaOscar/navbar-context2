@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import MyContext from '../context/MyContext';
 import styles from "../css/Form.module.css";
 
-export default () => {
+const Form = () => {
     const {setVal} = useContext(MyContext);
     const handleChange = (e) => {
         setVal(e.target.value)
@@ -15,3 +15,5 @@ export default () => {
         </form>
     )
 }
+
+export default Form;
